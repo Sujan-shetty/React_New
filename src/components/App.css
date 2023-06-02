@@ -1,0 +1,57 @@
+.product-box .edit-button {
+  margin-bottom: 5px; /* Add a bottom margin to create a gap */
+}
+
+.product-box .delete-button {
+  margin-left: 1cm; /* Add a left margin to create a gap */
+}
+
+.product-box {
+  flex-basis: 15%; /* Adjust the width to reduce the box size */
+  margin: 1px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.product-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5cm;
+  margin-left: 4cm;
+  gap: 1cm; /* Add gap between products */
+}
+
+
+.product-box1 {
+  flex-basis: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.product-box2 {
+  flex-basis: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.product-box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-box h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product-box p {
+  margin-bottom: 5px;
+}
